@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		742666CD1E7C696F00C068E4 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 742666CC1E7C696F00C068E4 /* cloud.png */; };
+		7427743F1E7E7E87001324E3 /* Background 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7427743E1E7E7E87001324E3 /* Background 1.png */; };
+		74B2AFC91E802899001174D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B2AFC81E802899001174D7 /* AVFoundation.framework */; };
+		74B2AFD01E802E71001174D7 /* buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74B2AFCE1E802E71001174D7 /* buzzer.mp3 */; };
+		74CE167A1E789AD0003B2388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE16791E789AD0003B2388 /* AppDelegate.swift */; };
+		74CE167C1E789AD0003B2388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE167B1E789AD0003B2388 /* ViewController.swift */; };
+		74CE167F1E789AD0003B2388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CE167D1E789AD0003B2388 /* Main.storyboard */; };
+		74CE16811E789AD0003B2388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16801E789AD0003B2388 /* Assets.xcassets */; };
+		74CE16841E789AD0003B2388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16821E789AD0003B2388 /* LaunchScreen.storyboard */; };
+		74CE168F1E789AD0003B2388 /* preschoolCalculator_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE168E1E789AD0003B2388 /* preschoolCalculator_appTests.swift */; };
+		74CE169A1E789AD0003B2388 /* preschoolCalculator_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE16991E789AD0003B2388 /* preschoolCalculator_appUITests.swift */; };
+		74CE16B81E789B41003B2388 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16A81E789B40003B2388 /* apple.png */; };
+		74CE16B91E789B41003B2388 /* number0.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16A91E789B40003B2388 /* number0.png */; };
+		74CE16BA1E789B41003B2388 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16AA1E789B40003B2388 /* number1.png */; };
+		74CE16BB1E789B41003B2388 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16AB1E789B40003B2388 /* number2.png */; };
+		74CE16BC1E789B41003B2388 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16AC1E789B40003B2388 /* number3.png */; };
+		74CE16BD1E789B41003B2388 /* number4.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16AD1E789B40003B2388 /* number4.png */; };
+		74CE16BE1E789B41003B2388 /* number5.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16AE1E789B40003B2388 /* number5.png */; };
+		74CE16BF1E789B41003B2388 /* number6.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16AF1E789B40003B2388 /* number6.png */; };
+		74CE16C01E789B41003B2388 /* number7.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16B01E789B40003B2388 /* number7.png */; };
+		74CE16C11E789B41003B2388 /* number8.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16B11E789B40003B2388 /* number8.png */; };
+		74CE16C21E789B41003B2388 /* number9.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16B21E789B40003B2388 /* number9.png */; };
+		74CE16C31E789B41003B2388 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16B31E789B40003B2388 /* plate.png */; };
+		74CE16C41E789B41003B2388 /* plate_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16B41E789B40003B2388 /* plate_white.png */; };
+		74CE16C51E789B41003B2388 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16B51E789B40003B2388 /* play_again.png */; };
+		74CE16C71E789B41003B2388 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE16B71E789B41003B2388 /* thumbs_up.png */; };
+		74F109D31E7D73DE001C3DE0 /* draggingApples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F109D21E7D73DE001C3DE0 /* draggingApples.swift */; };
+		74F4B26F1E8312F300039706 /* star_kids 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F4B26B1E8312F300039706 /* star_kids 1.png */; };
+		74F4B2711E8312F300039706 /* star_kids 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F4B26D1E8312F300039706 /* star_kids 3.png */; };
+		74F4B2721E8312F300039706 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F4B26E1E8312F300039706 /* star_kids.png */; };
+		74F4B27C1E83342800039706 /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74F4B27B1E83342800039706 /* victory.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74CE168B1E789AD0003B2388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CE166E1E789AD0003B2388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74CE16751E789AD0003B2388;
+			remoteInfo = "preschoolCalculator app";
+		};
+		74CE16961E789AD0003B2388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CE166E1E789AD0003B2388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74CE16751E789AD0003B2388;
+			remoteInfo = "preschoolCalculator app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		742666CC1E7C696F00C068E4 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		7427743E1E7E7E87001324E3 /* Background 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 1.png"; sourceTree = "<group>"; };
+		74B2AFC81E802899001174D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		74B2AFCE1E802E71001174D7 /* buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer.mp3; sourceTree = "<group>"; };
+		74CE16761E789AD0003B2388 /* preschoolCalculator app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "preschoolCalculator app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CE16791E789AD0003B2388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74CE167B1E789AD0003B2388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74CE167E1E789AD0003B2388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74CE16801E789AD0003B2388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74CE16831E789AD0003B2388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74CE16851E789AD0003B2388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CE168A1E789AD0003B2388 /* preschoolCalculator appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "preschoolCalculator appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CE168E1E789AD0003B2388 /* preschoolCalculator_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preschoolCalculator_appTests.swift; sourceTree = "<group>"; };
+		74CE16901E789AD0003B2388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CE16951E789AD0003B2388 /* preschoolCalculator appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "preschoolCalculator appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CE16991E789AD0003B2388 /* preschoolCalculator_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preschoolCalculator_appUITests.swift; sourceTree = "<group>"; };
+		74CE169B1E789AD0003B2388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CE16A81E789B40003B2388 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		74CE16A91E789B40003B2388 /* number0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number0.png; sourceTree = "<group>"; };
+		74CE16AA1E789B40003B2388 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
+		74CE16AB1E789B40003B2388 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
+		74CE16AC1E789B40003B2388 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
+		74CE16AD1E789B40003B2388 /* number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number4.png; sourceTree = "<group>"; };
+		74CE16AE1E789B40003B2388 /* number5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number5.png; sourceTree = "<group>"; };
+		74CE16AF1E789B40003B2388 /* number6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number6.png; sourceTree = "<group>"; };
+		74CE16B01E789B40003B2388 /* number7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number7.png; sourceTree = "<group>"; };
+		74CE16B11E789B40003B2388 /* number8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number8.png; sourceTree = "<group>"; };
+		74CE16B21E789B40003B2388 /* number9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number9.png; sourceTree = "<group>"; };
+		74CE16B31E789B40003B2388 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
+		74CE16B41E789B40003B2388 /* plate_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_white.png; sourceTree = "<group>"; };
+		74CE16B51E789B40003B2388 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
+		74CE16B71E789B41003B2388 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
+		74F109D21E7D73DE001C3DE0 /* draggingApples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = draggingApples.swift; sourceTree = "<group>"; };
+		74F4B26B1E8312F300039706 /* star_kids 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_kids 1.png"; path = "preschoolCalculator app/images/star_kids 1.png"; sourceTree = "<group>"; };
+		74F4B26D1E8312F300039706 /* star_kids 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_kids 3.png"; path = "preschoolCalculator app/images/star_kids 3.png"; sourceTree = "<group>"; };
+		74F4B26E1E8312F300039706 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_kids.png; path = "preschoolCalculator app/images/star_kids.png"; sourceTree = "<group>"; };
+		74F4B27B1E83342800039706 /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74CE16731E789AD0003B2388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B2AFC91E802899001174D7 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CE16871E789AD0003B2388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CE16921E789AD0003B2388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B2AFC71E802899001174D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74B2AFC81E802899001174D7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74CE166D1E789AD0003B2388 = {
+			isa = PBXGroup;
+			children = (
+				74F4B26B1E8312F300039706 /* star_kids 1.png */,
+				74F4B26D1E8312F300039706 /* star_kids 3.png */,
+				74F4B26E1E8312F300039706 /* star_kids.png */,
+				74CE16781E789AD0003B2388 /* preschoolCalculator app */,
+				74CE168D1E789AD0003B2388 /* preschoolCalculator appTests */,
+				74CE16981E789AD0003B2388 /* preschoolCalculator appUITests */,
+				74CE16771E789AD0003B2388 /* Products */,
+				74B2AFC71E802899001174D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74CE16771E789AD0003B2388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CE16761E789AD0003B2388 /* preschoolCalculator app.app */,
+				74CE168A1E789AD0003B2388 /* preschoolCalculator appTests.xctest */,
+				74CE16951E789AD0003B2388 /* preschoolCalculator appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74CE16781E789AD0003B2388 /* preschoolCalculator app */ = {
+			isa = PBXGroup;
+			children = (
+				74CE16791E789AD0003B2388 /* AppDelegate.swift */,
+				74CE167B1E789AD0003B2388 /* ViewController.swift */,
+				74CE167D1E789AD0003B2388 /* Main.storyboard */,
+				74B2AFCE1E802E71001174D7 /* buzzer.mp3 */,
+				74F4B27B1E83342800039706 /* victory.mp3 */,
+				74F109D21E7D73DE001C3DE0 /* draggingApples.swift */,
+				74CE16801E789AD0003B2388 /* Assets.xcassets */,
+				74CE16A71E789B40003B2388 /* images */,
+				74CE16821E789AD0003B2388 /* LaunchScreen.storyboard */,
+				74CE16851E789AD0003B2388 /* Info.plist */,
+			);
+			path = "preschoolCalculator app";
+			sourceTree = "<group>";
+		};
+		74CE168D1E789AD0003B2388 /* preschoolCalculator appTests */ = {
+			isa = PBXGroup;
+			children = (
+				74CE168E1E789AD0003B2388 /* preschoolCalculator_appTests.swift */,
+				74CE16901E789AD0003B2388 /* Info.plist */,
+			);
+			path = "preschoolCalculator appTests";
+			sourceTree = "<group>";
+		};
+		74CE16981E789AD0003B2388 /* preschoolCalculator appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74CE16991E789AD0003B2388 /* preschoolCalculator_appUITests.swift */,
+				74CE169B1E789AD0003B2388 /* Info.plist */,
+			);
+			path = "preschoolCalculator appUITests";
+			sourceTree = "<group>";
+		};
+		74CE16A71E789B40003B2388 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7427743E1E7E7E87001324E3 /* Background 1.png */,
+				74CE16A81E789B40003B2388 /* apple.png */,
+				74CE16A91E789B40003B2388 /* number0.png */,
+				74CE16AA1E789B40003B2388 /* number1.png */,
+				74CE16AB1E789B40003B2388 /* number2.png */,
+				74CE16AC1E789B40003B2388 /* number3.png */,
+				74CE16AD1E789B40003B2388 /* number4.png */,
+				74CE16AE1E789B40003B2388 /* number5.png */,
+				74CE16AF1E789B40003B2388 /* number6.png */,
+				74CE16B01E789B40003B2388 /* number7.png */,
+				74CE16B11E789B40003B2388 /* number8.png */,
+				74CE16B21E789B40003B2388 /* number9.png */,
+				74CE16B31E789B40003B2388 /* plate.png */,
+				74CE16B41E789B40003B2388 /* plate_white.png */,
+				74CE16B51E789B40003B2388 /* play_again.png */,
+				742666CC1E7C696F00C068E4 /* cloud.png */,
+				74CE16B71E789B41003B2388 /* thumbs_up.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74CE16751E789AD0003B2388 /* preschoolCalculator app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CE169E1E789AD0003B2388 /* Build configuration list for PBXNativeTarget "preschoolCalculator app" */;
+			buildPhases = (
+				74CE16721E789AD0003B2388 /* Sources */,
+				74CE16731E789AD0003B2388 /* Frameworks */,
+				74CE16741E789AD0003B2388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "preschoolCalculator app";
+			productName = "preschoolCalculator app";
+			productReference = 74CE16761E789AD0003B2388 /* preschoolCalculator app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74CE16891E789AD0003B2388 /* preschoolCalculator appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CE16A11E789AD0003B2388 /* Build configuration list for PBXNativeTarget "preschoolCalculator appTests" */;
+			buildPhases = (
+				74CE16861E789AD0003B2388 /* Sources */,
+				74CE16871E789AD0003B2388 /* Frameworks */,
+				74CE16881E789AD0003B2388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74CE168C1E789AD0003B2388 /* PBXTargetDependency */,
+			);
+			name = "preschoolCalculator appTests";
+			productName = "preschoolCalculator appTests";
+			productReference = 74CE168A1E789AD0003B2388 /* preschoolCalculator appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74CE16941E789AD0003B2388 /* preschoolCalculator appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CE16A41E789AD0003B2388 /* Build configuration list for PBXNativeTarget "preschoolCalculator appUITests" */;
+			buildPhases = (
+				74CE16911E789AD0003B2388 /* Sources */,
+				74CE16921E789AD0003B2388 /* Frameworks */,
+				74CE16931E789AD0003B2388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74CE16971E789AD0003B2388 /* PBXTargetDependency */,
+			);
+			name = "preschoolCalculator appUITests";
+			productName = "preschoolCalculator appUITests";
+			productReference = 74CE16951E789AD0003B2388 /* preschoolCalculator appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74CE166E1E789AD0003B2388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hertfordshire;
+				TargetAttributes = {
+					74CE16751E789AD0003B2388 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					74CE16891E789AD0003B2388 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74CE16751E789AD0003B2388;
+					};
+					74CE16941E789AD0003B2388 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74CE16751E789AD0003B2388;
+					};
+				};
+			};
+			buildConfigurationList = 74CE16711E789AD0003B2388 /* Build configuration list for PBXProject "preschoolCalculator app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74CE166D1E789AD0003B2388;
+			productRefGroup = 74CE16771E789AD0003B2388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74CE16751E789AD0003B2388 /* preschoolCalculator app */,
+				74CE16891E789AD0003B2388 /* preschoolCalculator appTests */,
+				74CE16941E789AD0003B2388 /* preschoolCalculator appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74CE16741E789AD0003B2388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CE16841E789AD0003B2388 /* LaunchScreen.storyboard in Resources */,
+				74CE16C11E789B41003B2388 /* number8.png in Resources */,
+				74CE16C31E789B41003B2388 /* plate.png in Resources */,
+				74CE16811E789AD0003B2388 /* Assets.xcassets in Resources */,
+				74B2AFD01E802E71001174D7 /* buzzer.mp3 in Resources */,
+				74F4B2721E8312F300039706 /* star_kids.png in Resources */,
+				74CE16C01E789B41003B2388 /* number7.png in Resources */,
+				74CE16BE1E789B41003B2388 /* number5.png in Resources */,
+				74F4B2711E8312F300039706 /* star_kids 3.png in Resources */,
+				74CE16BC1E789B41003B2388 /* number3.png in Resources */,
+				74CE16BA1E789B41003B2388 /* number1.png in Resources */,
+				74CE16C41E789B41003B2388 /* plate_white.png in Resources */,
+				74CE16B91E789B41003B2388 /* number0.png in Resources */,
+				74CE16BD1E789B41003B2388 /* number4.png in Resources */,
+				74CE16B81E789B41003B2388 /* apple.png in Resources */,
+				74CE16BB1E789B41003B2388 /* number2.png in Resources */,
+				74CE167F1E789AD0003B2388 /* Main.storyboard in Resources */,
+				74CE16C21E789B41003B2388 /* number9.png in Resources */,
+				742666CD1E7C696F00C068E4 /* cloud.png in Resources */,
+				74CE16C71E789B41003B2388 /* thumbs_up.png in Resources */,
+				74F4B27C1E83342800039706 /* victory.mp3 in Resources */,
+				74F4B26F1E8312F300039706 /* star_kids 1.png in Resources */,
+				74CE16BF1E789B41003B2388 /* number6.png in Resources */,
+				7427743F1E7E7E87001324E3 /* Background 1.png in Resources */,
+				74CE16C51E789B41003B2388 /* play_again.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CE16881E789AD0003B2388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CE16931E789AD0003B2388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74CE16721E789AD0003B2388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F109D31E7D73DE001C3DE0 /* draggingApples.swift in Sources */,
+				74CE167C1E789AD0003B2388 /* ViewController.swift in Sources */,
+				74CE167A1E789AD0003B2388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CE16861E789AD0003B2388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CE168F1E789AD0003B2388 /* preschoolCalculator_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CE16911E789AD0003B2388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CE169A1E789AD0003B2388 /* preschoolCalculator_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74CE168C1E789AD0003B2388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74CE16751E789AD0003B2388 /* preschoolCalculator app */;
+			targetProxy = 74CE168B1E789AD0003B2388 /* PBXContainerItemProxy */;
+		};
+		74CE16971E789AD0003B2388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74CE16751E789AD0003B2388 /* preschoolCalculator app */;
+			targetProxy = 74CE16961E789AD0003B2388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74CE167D1E789AD0003B2388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CE167E1E789AD0003B2388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74CE16821E789AD0003B2388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CE16831E789AD0003B2388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74CE169C1E789AD0003B2388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74CE169D1E789AD0003B2388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74CE169F1E789AD0003B2388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "preschoolCalculator app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashma.preschoolCalculator-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74CE16A01E789AD0003B2388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "preschoolCalculator app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashma.preschoolCalculator-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		74CE16A21E789AD0003B2388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "preschoolCalculator appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashma.preschoolCalculator-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/preschoolCalculator app.app/preschoolCalculator app";
+			};
+			name = Debug;
+		};
+		74CE16A31E789AD0003B2388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "preschoolCalculator appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashma.preschoolCalculator-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/preschoolCalculator app.app/preschoolCalculator app";
+			};
+			name = Release;
+		};
+		74CE16A51E789AD0003B2388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "preschoolCalculator appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashma.preschoolCalculator-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "preschoolCalculator app";
+			};
+			name = Debug;
+		};
+		74CE16A61E789AD0003B2388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "preschoolCalculator appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashma.preschoolCalculator-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "preschoolCalculator app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74CE16711E789AD0003B2388 /* Build configuration list for PBXProject "preschoolCalculator app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CE169C1E789AD0003B2388 /* Debug */,
+				74CE169D1E789AD0003B2388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CE169E1E789AD0003B2388 /* Build configuration list for PBXNativeTarget "preschoolCalculator app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CE169F1E789AD0003B2388 /* Debug */,
+				74CE16A01E789AD0003B2388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CE16A11E789AD0003B2388 /* Build configuration list for PBXNativeTarget "preschoolCalculator appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CE16A21E789AD0003B2388 /* Debug */,
+				74CE16A31E789AD0003B2388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CE16A41E789AD0003B2388 /* Build configuration list for PBXNativeTarget "preschoolCalculator appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CE16A51E789AD0003B2388 /* Debug */,
+				74CE16A61E789AD0003B2388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74CE166E1E789AD0003B2388 /* Project object */;
+}
